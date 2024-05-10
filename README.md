@@ -1,2 +1,8 @@
 # Capstone-Project
 Capstone project involving scripting, training, and testing the CHoiCE Data Set against archival texts 
+
+The code used was based off a project from PyLessons who accomplished the same except using the IAM Dataset. I adjusted the code to fit my goals of training the CHoiCE dataset to read archival texts. In order to use the code, I used an Anaconda environment where I used the mltu 1.2.5 package, Python 3.10.13, and Keras 2.10.0. Using any later versions of Python, Keras or mltu will result in the code being uncompatible. 
+
+In order to run the train.py file, a data set with a formatted script file must be inputted to train a model for your appropriate data set. Once a model has been trained, you can use the InferenceModel.py to load your trained model and test  against the training data, or a set of images of your choosing. If you images are compatible, the model will predict your labeled word and prove its accuracy alongside the prediction. The testing data must be a .csv file or else it will be incompatble. I have attached some testing data and training data to test both models against for demo purpose. I have also attacched the .csv files that are necessary for loading the testing and training data.
+
+Due to the nature of the CHoiCE data set only consisting of letters, the model will only be able to predict single letters which is a major downside of the model. Also, due to the data set being significantly smaller compared to the IAM Dataset, the accuracy of the model is lower than the IAM Dataset. However, in application, the CHoiCE data set is much more accurate in reading cursive letters compared to the IAM Dataset, but only being able to read letters is a major hinderance for the model. 

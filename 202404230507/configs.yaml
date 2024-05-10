@@ -1,0 +1,9 @@
+batch_size: 16
+height: 32
+learning_rate: 0.0005
+max_text_length: 16
+model_path: C:/Users/diego/Capstone/202404230507/model2.onnx
+train_epochs: 1000
+train_workers: 20
+vocab: QCHK4rB6YfJ8wPsnDy3O9vGR SmotN7blpkL2haiqxuzEZ5jWdVFXMA0UcTgI1e
+width: 128
